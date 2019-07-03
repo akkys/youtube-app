@@ -1,0 +1,91 @@
+body {
+  margin:0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container1 {
+	width: 100%;
+	padding: 10px 50px 0px 50px;
+}
+
+.search_bar {
+	margin: 25px;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.search_bar input {
+	width: 60%;
+	padding: 5px 10px 5px 10px;
+	/*border-radius: 5px;*/
+}
+
+.video-item img {
+	max-width: 64px;
+
+}
+
+.media-heading {
+	margin-left: 10px;
+}
+
+.media-object {
+	margin-left: 0;
+	width: 150px;
+}
+
+.video-detail .details {
+	margin-top: 10px;
+	padding: 10px;
+	/*border: 1px solid #ddd;*/
+	/*border-radius: 5px;*/
+}
+
+.title {
+	font-weight: normal;
+	font-size: 20px;
+	margin: 0;
+	border-bottom: 1px solid #ddd;
+}
+
+.description {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.channelTitle {
+	font-weight: bold;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+.channelttl {
+	color: gray;
+	/*margin-left: 20px;*/
+	font-size: 15px;
+} 
+
+.publishedAt {
+	color: gray;
+	margin-left: 20px;
+	font-size: 15px;
+}
+.list-group-item {
+	cursor: pointer;
+	border: none;
+}
+
+.list-group-item:hover {
+	background-color: #eee;
+}
